@@ -169,7 +169,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
   .about-container {
     margin-top: 0;
     position: absolute;
@@ -288,21 +288,18 @@ body {
   display: flex;
   justify-content: flex-end;
   transition: all 0.8s;
-  transform: translateY(-55px);
+  /* transform: translateY(-55px); */
   overflow-x: hidden;
-  opacity: 0;
 }
 
 .web-develop {
   background: url("../images/Services/Web-develop.jpeg");
   background-size: cover;
-  transform: scale(0);
-  transition: all 0.8s;
 }
 
 .desc-container {
-  height: 100vh;
-  width: 40%;
+  height: 50vh;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -359,6 +356,9 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
+  .services-container {
+    height: 50vh;
+  }
   .desc-container {
     width: 40%;
     font-size: 1rem;
@@ -377,6 +377,7 @@ body {
     height: 100vh;
   }
   .desc-container {
+    height: 100vh;
     font-size: 1rem;
   }
   .desc-container h3 {
