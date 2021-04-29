@@ -21,13 +21,11 @@ window.addEventListener("scroll", function () {
   let WebDesContainerPos = getPos(webDesign).y;
 
   if (wScroll >= WebDesContainerPos - 400) {
-    webDesign.style.transform = "translateY(0)";
     webDesign.style.opacity = "1";
     webDesignDesc.style.transform = "translate(0)";
   }
 
   if (wScroll >= WebDevContainerPos - 400) {
-    webDevelop.style.transform = "scale(1)";
     webDevelopDesc.style.transform = "scale(1)";
   }
 });

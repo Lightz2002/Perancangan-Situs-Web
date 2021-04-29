@@ -288,7 +288,6 @@ body {
   display: flex;
   justify-content: flex-end;
   transition: all 0.8s;
-  /* transform: translateY(-55px); */
   overflow-x: hidden;
 }
 
